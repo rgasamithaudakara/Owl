@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Project" representedClassName="Project" syncable="YES" codeGenerationType="class">
+        <attribute name="projectComplete" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="projectDeadline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectPriority" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectStartDate" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="task" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Task" inverseName="projectTask" inverseEntity="Task" syncable="YES"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" syncable="YES" codeGenerationType="class">
+        <attribute name="taskComplete" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="taskDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskEndDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskStartDate" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="projectTask" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="task" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Project" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Task" positionX="-54" positionY="-9" width="128" height="135"/>
+    </elements>
+</model>

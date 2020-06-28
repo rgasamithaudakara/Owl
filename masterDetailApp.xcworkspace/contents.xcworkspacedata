@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:masterDetailApp/Task+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:masterDetailApp/Task+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:masterDetailApp/Project+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:masterDetailApp/Project+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:masterDetailApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

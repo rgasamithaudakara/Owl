@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tasks_launch_screen_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oj7-Hg-Lkv">
+                                <rect key="frame" x="0.0" y="-4" width="768" height="1048"/>
+                                <color key="backgroundColor" red="1" green="0.88923918059999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2019 Wagee Ishani. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqL-4k-dRA">
+                                <rect key="frame" x="20" y="974" width="728" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FgB-JN-Xp3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Oj7-Hg-Lkv" secondAttribute="bottom" constant="-20" id="3qR-6y-SKP"/>
+                            <constraint firstItem="Oj7-Hg-Lkv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-24" id="DqE-Tl-dkJ"/>
+                            <constraint firstItem="aqL-4k-dRA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IDV-Aj-lbb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aqL-4k-dRA" secondAttribute="bottom" constant="20" id="LQZ-C7-1aZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aqL-4k-dRA" secondAttribute="trailing" constant="20" id="XTC-Gb-GOt"/>
+                            <constraint firstItem="Oj7-Hg-Lkv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bOe-p1-mcj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Oj7-Hg-Lkv" secondAttribute="trailing" id="wZt-Qf-jiR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.734375" y="374.67057101024886"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tasks_launch_screen_image.png" width="1517" height="1147"/>
+    </resources>
+</document>
